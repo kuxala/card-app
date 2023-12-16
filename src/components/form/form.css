@@ -1,0 +1,177 @@
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+input{
+  padding: 10px;
+}
+  
+.header-text{
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+  
+  .inputs{
+    width: 327px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+  }
+  
+  
+  .card-dates{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mm, .yy{
+    width: 72px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    
+  }
+  .yy{
+    margin-left: 8px;
+  }
+  
+  .cvv{
+    width: 164px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+  }
+  a {
+    text-decoration: none;
+  }
+  .confirm{
+    width: 327px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Deep-Violet, #120519);
+    margin-top: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .confirm a {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+
+.bigg-circle{
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+.thankyou-h1{
+  color: var(--Deep-Violet, #21092F);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Heading (XL) */
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.422px;
+  margin-bottom: 10px
+}
+
+.thankyou-p{
+  color: var(--Purplish-Grey, #8F8694);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Heading (L) */
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px
+}
+
+.continue{
+  max-width: 327px;
+  min-width: 270px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 0px solid transparent;
+  background: var(--Deep-Violet, #21092F);
+  margin-bottom: 20px;
+}
+
+.continue a {
+  color: white;
+}
+
+.thankyou{
+  margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 768px){
+  .info{
+    margin-top: 300px;
+  }
+  .header-text{
+    font-size: 15px;
+  }
+  .inputs{
+    width: 381px;
+    height: 45px;
+  }
+  .mm, .yy{
+    width: 80px;
+    height: 45px;
+  }
+  .yy{
+    margin-left: 10px;
+  }
+  .cvv{
+    width: 191px;
+    height: 45px;
+  }
+
+  .confirm{
+    width: 381px;
+    height: 53px;
+  }
+  .thankyou{
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1466px){
+  .info{
+    margin-top: 250px;
+  }
+}
